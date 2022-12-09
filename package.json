@@ -1,0 +1,12 @@
+{
+  "name": "gopal612-js-lib",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "gopala krishna sakshi",
+  "license": "ISC"
+}
