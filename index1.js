@@ -19,6 +19,7 @@ export function printPrimes(num1, num2) {
 export function generateRandomNumber() {    
     return parseInt(Math.random(0,1) * 100);
 }
+
 //  for some reasons... we will not publish this in git... keep this repo like this only...
     // I dont know what those reasons are... I forgot now... anyway, we are publishing this in git
 
