@@ -1,4 +1,6 @@
-export function printPrimes(num1, num2) {
+module.exports = { printPrimes, generateRandomNumber }
+
+function printPrimes(num1, num2) {
     var a=num1, b=num2, arr=[];
     for (let i = a; i <= b; i++) {
         if (i == 1 || i == 0)
@@ -16,7 +18,7 @@ export function printPrimes(num1, num2) {
     return arr;
 }
 
-export function generateRandomNumber() {    
+function generateRandomNumber() {    
     return parseInt(Math.random(0,1) * 100);
 }
 

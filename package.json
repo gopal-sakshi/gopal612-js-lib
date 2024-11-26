@@ -1,10 +1,11 @@
 {
   "name": "gopal612-js-lib",
-  "version": "1.0.5",
+  "version": "143.143.143",
   "description": "",
-  "main": "index2.js",  
+  "main": "index.js",  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish_aws_codeartifact23": "aws codeartifact login --tool npm --repository repository23 --domain priya24 --profile priya22"
   },
   "keywords": [],
   "author": "gopala krishna sakshi",
